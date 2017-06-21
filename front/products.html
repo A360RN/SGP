@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar-material default-primary-color">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo left">Sunshine Andina</a>
+            <a href="#" data-activates="sidebar" class="button-collapse right"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+            <ul class="side-nav dark-primary-color" id="sidebar">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="input-field col s3">
+                <select name="" id="filtro_categoria">
+                            <option value="">Aceites Esenciales</option>
+                            <option value="">Cosmeticos</option>
+                        </select>
+                <label for="">Filtrar por categoría</label>
+            </div>
+            <div class="col s3">
+                <button class="btn waves-effect waves-light accent-color">Buscar</button>
+            </div>
+            <div class="col s3">
+                <button class="btn waves-effect waves-light accent-color">Productos Destacados</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="card sticky-action">
+                    <div class="card-image">
+                        <img src="resources/img/sa-logo.png" class="responsive-img" alt="">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator center-align">
+                            <i class="material-icons center-align right">info</i>
+                            Más información
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title">Nombre Producto<i class="material-icons right">close</i></span>
+                        <p>Descripción</p>
+                        <p class="flow-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit modi quasi inventore id a nemo, rerum sunt voluptatibus perferendis
+                            nesciunt deserunt enim tenetur dolorem aperiam, quo temporibus ipsa quam dolore voluptatum, repellat,
+                            mollitia. Accusantium ipsam, illo iste, suscipit voluptatem nisi, fugit eum culpa nesciunt eaque
+                            aliquid qui placeat est sed.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn accent-color">Agregar al carrito<i class="material-icons prefix">shopping_cart</i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer default-primary-color">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="right">&copy; 2017</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+
+</html>
