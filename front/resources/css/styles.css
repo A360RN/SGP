@@ -30,3 +30,30 @@ footer {
     left: 0;
     position: relative;
 }
+
+th, td {
+    text-align: center;
+}
+
+tr td:first-child {
+    width: 40%;
+}
+
+tr td:nth-child(2) {
+    width: 40%;
+}
+
+tr td:nth-child(3) {
+    width: 40%;
+}
+
+tr td:nth-child(4) {
+    width: 40%;
+}
+
+
+@media(min-height: 450px){
+    form div.center-align .btn{
+        margin-top: 10px;
+    }
+}
