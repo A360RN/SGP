@@ -35,52 +35,51 @@
 
     <div class="container">
         <div class="row">
-            <h2 class="center-align">Ingrese sus datos</h2>
-
-            <form action="" class="col s6 offset-s3 user-form">
+            <form action="" class="col s12">
                 <div class="row">
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="username">
+                    <div class="input-field col s6">
+                        <input type="text" name="username" id="username" value="Username">
                         <label for="username">Usuario</label>
                     </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="password" id="password">
-                        <label for="password">Contraseña</label>
-                    </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="firstname">
+                </div>
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <input type="text" value="Alonso" name="firstname" id="firstname">
                         <label for="firstname">Primer Nombre</label>
                     </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="middlename">
+                    <div class="input-field col m6 s12">
+                        <input type="text" value="Naohiko" name="middlename" id="middlename">
                         <label for="middlename">Segundo Nombre</label>
                     </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="firstname">
+                    <div class="input-field col m6 s12">
+                        <input type="text" value="Reynoso" name="lastname" id="lastname">
                         <label for="lastname">Apellido Paterno</label>
                     </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="firstname">
+                    <div class="input-field col m6 s12">
+                        <input type="text" value="Nishida" name="lastname2" id="lastname2">
                         <label for="lastname2">Apellido Materno</label>
                     </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="dni">
+                    <div class="input-field col m6 s12">
+                        <input type="text" value="72791237" name="lastname2" id="dni">
                         <label for="dni">DNI</label>
                     </div>
-                    <div class="input-field inline col s12 m6">
-                        <input type="text" id="ruc">
+                    <div class="input-field col m6 s12">
+                        <input type="text" value="10727912377" name="lastname2" id="ruc">
                         <label for="ruc">RUC</label>
                     </div>
-                    <div class="input-field inline col s12 m12">
-                        <textarea id="direccion" class="materialize-textarea"></textarea>
-                        <label for="direccion">Direccion</label>
+                    <div class="input-field col m6 s12">
+                        <textarea class="materialize-textarea" type="text" value="Direccion" name="direccion" id="direccion">
+                            Av. Santa Catalina 630 La Victoria
+                        </textarea>
+                        <label for="firstname">Direccion</label>
                     </div>
-                    <div class="col s12 center-align">
-                        <button class="btn waves-effect accent-color">Registrarse</button>
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <button class="btn waves-effect red">Guardar Cambios</button>
+                        </div>
                     </div>
                 </div>
             </form>
-
         </div>
     </div>
 

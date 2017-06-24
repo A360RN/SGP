@@ -35,22 +35,31 @@ th, td {
     text-align: center;
 }
 
-tr td:first-child {
+tr td:first-child, tr th:first-child  {
     width: 40%;
 }
 
-tr td:nth-child(2) {
-    width: 40%;
+tr td:nth-child(2), tr th:nth-child(2) {
+    width: 5%;
 }
 
-tr td:nth-child(3) {
-    width: 40%;
+tr td:nth-child(3), tr th:nth-child(3) {
+    width: 15%;
+    text-align: center;
 }
 
-tr td:nth-child(4) {
-    width: 40%;
+tr td:nth-child(4), tr th:nth-child(4) {
+    width: 25%;
 }
 
+div.divider {
+    margin-bottom: 10px;
+}
+
+button.btn{
+    line-height: 1.0em;
+    margin-bottom: 20px;
+}
 
 @media(min-height: 450px){
     form div.center-align .btn{
