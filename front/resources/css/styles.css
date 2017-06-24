@@ -20,38 +20,6 @@
     opacity: 1;
 }
 
-.card-image {
-    padding: 10px;
-}
-
-.card-action button {
-    font-size: 0.9em;
-    display: inline-block;
-}
-
-.card-reveal p, .card-content .card-title {
-    font-size: 1.0em;
-    color: #747474;
-}
-
-.card .card-content {
-    padding: 10px;
-}
-
-.card .card-content .card-title{
-    margin-left: 3%;
-} 
-
-.card-content .card-title i{
-    padding-right: 15%;
-}
-
-.card .card-image img {
-    height: 150px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+button.btn {
+    margin-top: 10px;
 }
