@@ -4,4 +4,12 @@ $(document).ready(() => {
     });
 
     $('select').material_select();
+
+    // si val en cantidad <= 0
+    $('input[type="number"]').bind('keyup mouseup', function(){
+        let val = $(this).val();
+        if(val <= 0){
+            $(this).val(null);
+        }
+    });
 });
